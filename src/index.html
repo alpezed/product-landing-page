@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Product Landing Page</title>
+		<meta name="description" content="Basic HTML/Tailwind starter" />
+		<meta name="author" content="Daily Dev Tips" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./output.css" />
+	</head>
+	<body>
+		<div class="bg-inverse-color py-4 xl:px-0 px-4">
+			<div class="max-w-[1300px] mx-auto flex items-center text-right">
+				<div class="flex items-center gap-4 [&_a]:text-inverse-text ml-auto">
+					<a href="#" class="!text-link-secondary font-bold">Personal</a>
+					<a href="#">Business</a>
+				</div>
+			</div>
+		</div>
+		<div class="bg-white">
+			<div class="max-w-[1300px] xl:px-0 px-4 mx-auto flex items-center">
+				<div class="flex items-center py-4">
+					<div class="logo mr-[32px]">
+						<a href="/"
+							><div
+								class="w-[45px] h-[45px] rounded-full bg-link-tertiary"
+							></div
+						></a>
+					</div>
+					<div>
+						<ul
+							class="items-center gap-6 nav-menu text-base [&_a]:text-[#1A1A23] hidden md:flex"
+						>
+							<li><a href="#">News</a></li>
+							<li>
+								<a href="#" class="!text-btn-primary font-semibold"
+									>Magazines</a
+								>
+							</li>
+							<li><a href="#">Student Publications</a></li>
+							<li><a href="#">Promotions</a></li>
+							<li><a href="#">Rewards</a></li>
+							<li><a href="#">Your Account</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="ml-auto flex items-center gap-4">
+					<button class="flex items-center gap-3">
+						<span>English</span>
+						<svg
+							width="20"
+							height="11"
+							viewBox="0 0 20 11"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M10 10.0775C9.40002 10.0775 8.83752 9.84501 8.41002 9.41751L1.06752 2.08251C0.77502 1.79001 0.77502 1.31751 1.06752 1.02501C1.36002 0.732509 1.83252 0.732509 2.12502 1.02501L9.46752 8.36751C9.75252 8.65251 10.2475 8.65251 10.525 8.36751L17.8675 1.02501C18.16 0.732509 18.6325 0.732509 18.925 1.02501C19.2175 1.31751 19.2175 1.79001 18.925 2.08251L11.5825 9.42501C11.155 9.85251 10.5925 10.085 9.99252 10.085L10 10.0775Z"
+								fill="#636369"
+							/>
+						</svg>
+					</button>
+					<button class="flex items-center gap-3 font-[600]">
+						<svg
+							width="18"
+							height="21"
+							viewBox="0 0 18 21"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M10.3426 11.285C12.5851 10.6925 14.2351 8.65249 14.2351 6.22999C14.2351 3.34249 11.8876 0.987488 8.99255 0.987488C6.09755 0.987488 3.75005 3.33499 3.75005 6.22999C3.75005 8.65249 5.40755 10.6925 7.65005 11.285C3.53255 11.93 0.367554 15.5 0.367554 19.7975C0.367554 20.21 0.705054 20.5475 1.11755 20.5475C1.53005 20.5475 1.86755 20.21 1.86755 19.7975C1.86755 15.8675 5.06255 12.6725 8.99255 12.6725C12.9226 12.6725 16.1176 15.8675 16.1176 19.7975C16.1176 20.21 16.4551 20.5475 16.8676 20.5475C17.2801 20.5475 17.6176 20.21 17.6176 19.7975C17.6176 15.5 14.4526 11.9375 10.3351 11.285H10.3426ZM5.25755 6.22999C5.25755 4.16749 6.93755 2.48749 9.00005 2.48749C11.0626 2.48749 12.7426 4.16749 12.7426 6.22999C12.7426 8.29249 11.0626 9.97249 9.00005 9.97249C6.93755 9.97249 5.25755 8.29249 5.25755 6.22999Z"
+								fill="#636369"
+							/>
+						</svg>
+						<span>Log in</span>
+					</button>
+					<button class="block md:hidden">
+						<svg
+							width="32"
+							height="33"
+							viewBox="0 0 32 33"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M26 11.1H6C5.45 11.1 5 10.65 5 10.1C5 9.55001 5.45 9.10001 6 9.10001H26C26.55 9.10001 27 9.55001 27 10.1C27 10.65 26.55 11.1 26 11.1Z"
+								fill="#004781"
+							/>
+							<path
+								d="M26 17.5H6C5.45 17.5 5 17.05 5 16.5C5 15.95 5.45 15.5 6 15.5H26C26.55 15.5 27 15.95 27 16.5C27 17.05 26.55 17.5 26 17.5Z"
+								fill="#004781"
+							/>
+							<path
+								d="M26 23.9H6C5.45 23.9 5 23.45 5 22.9C5 22.35 5.45 21.9 6 21.9H26C26.55 21.9 27 22.35 27 22.9C27 23.45 26.55 23.9 26 23.9Z"
+								fill="#004781"
+							/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="py-10 md:py-20 bg-primary-light">
+			<div
+				class="flex lg:flex-row flex-col gap-10 md:gap-10 xl:gap-28 max-w-container xl:px-0 px-4 mx-auto align-center"
+			>
+				<div class="space-y-10 w-full xl:w-1/2">
+					<div class="block md:hidden">
+						<h1 class="text-4xl font-semibold mb-4 text-center">
+							Product/Plan name
+						</h1>
+						<div
+							class="text-2xl font-semibold text-primary-dark mb-6 text-center"
+						>
+							Price
+						</div>
+						<div class="mb-2">
+							Promo description if any (max 3 lines only) - Sed ut to the saa
+							perspiciatis unde omnis iste natus error sit voluptatem accussaa
+							lorem ipsum dold
+						</div>
+						<a href="#">Read more</a>
+					</div>
+					<div class="relative flex md:justify-start justify-center">
+						<div class="placeholder-gallery-img-1"></div>
+						<div
+							class="placeholder-gallery-img-2 bottom-0 absolute !w-full"
+						></div>
+					</div>
+					<div class="hidden md:flex gap-4">
+						<div
+							class="placeholder-gallery-thumbnail border-2 border-black"
+						></div>
+						<div class="placeholder-gallery-thumbnail"></div>
+						<div class="placeholder-gallery-thumbnail"></div>
+						<div class="placeholder-gallery-thumbnail"></div>
+						<div class="placeholder-gallery-thumbnail"></div>
+					</div>
+					<div class="text-primary-dark text-base">
+						Sub-description - Sed ut perspiciatis unde omnis iste natus error
+						sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+						eaque ipsa quae ab illo inventore veritatis et quasi
+					</div>
+					<a href="#" class="block md:hidden !mt-2">Read more</a>
+					<div class="space-y-2 hidden md:block">
+						<div
+							class="flex items-center justify-between text-primary-dark text-lg font-semibold"
+						>
+							Title
+						</div>
+						<div class="flex items-center justify-between text-primary-dark">
+							<div>Text</div>
+							<div class="text-right">Text</div>
+						</div>
+						<div class="flex items-center justify-between text-primary-dark">
+							<div>Text</div>
+							<div class="text-right">Text</div>
+						</div>
+						<div class="flex items-center justify-between text-primary-dark">
+							<div>Text</div>
+							<div class="text-right">Text</div>
+						</div>
+					</div>
+				</div>
+				<div class="w-full xl:w-1/2">
+					<div class="hidden md:block">
+						<h1 class="text-4xl font-semibold mb-4">
+							Product/Plan name - max to only 2 lines
+						</h1>
+						<div class="text-2xl font-semibold text-primary-dark mb-6">
+							Price
+						</div>
+						<div class="mb-2">
+							Description of promotion (if any) (max 3 lines) - Sed ut
+							perspiciatis unde omnis iste natus error sit voluptatem
+							accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+							quae ab illo inventore veritatis et quasi architecto beatae vitae
+							dicta sunt explicabo.
+						</div>
+						<a href="#">Read more</a>
+					</div>
+					<hr class="my-8" />
+					<div class="text-2xl font-semibold text-primary-dark mb-6">
+						Section title
+					</div>
+					<div class="flex flex-col gap-6">
+						<div
+							class="flex items-center gap-6 justify-between rounded-lg p-6 shadow-item border border-divider-stroke"
+						>
+							<div class="text-primary-dark text-base font-semibold">
+								<div>Title text</div>
+								<div class="hidden md:block">(max 2 lines only)</div>
+							</div>
+							<div class="flex items-center mr-0 md:-mr-9">
+								<div class="text-primary-dark text-lg font-semibold">$0.00</div>
+								<button type="button" class="pl-5 hidden md:block">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12 2.39999C6.69752 2.39999 2.40002 6.69749 2.40002 12C2.40002 17.3025 6.69752 21.6 12 21.6C17.3025 21.6 21.6 17.3025 21.6 12C21.6 6.69749 17.3025 2.39999 12 2.39999ZM17.3325 9.32999L10.9275 15.735C10.7775 15.885 10.59 15.9525 10.395 15.9525C10.2 15.9525 10.0125 15.8775 9.86252 15.735L6.66752 12.54C6.37502 12.2475 6.37502 11.775 6.66752 11.4825C6.81752 11.3325 7.00502 11.265 7.20002 11.265C7.39502 11.265 7.58252 11.34 7.73252 11.4825L10.4025 14.1525L16.275 8.27999C16.425 8.12999 16.6125 8.06249 16.8075 8.06249C17.0025 8.06249 17.19 8.13749 17.34 8.27999C17.6325 8.57249 17.6325 9.04499 17.34 9.33749L17.3325 9.32999Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div
+							class="flex items-center gap-6 justify-between rounded-lg p-6 shadow-item border border-divider-stroke"
+						>
+							<div class="text-primary-dark text-base [&>div]:font-semibold">
+								<div>Title text</div>
+								<div class="mb-2">(max 2 lines only)</div>
+								<p>
+									Sub-description - Sed ut perspiciatis unde omnis iste natus
+									error sit voluptatem accusantium doloremque
+								</p>
+							</div>
+							<div class="flex items-center mr-0 md:-mr-9">
+								<div class="text-primary-dark text-lg font-semibold"></div>
+								<button type="button" class="pl-5 hidden md:block">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12 2.39999C6.69752 2.39999 2.40002 6.69749 2.40002 12C2.40002 17.3025 6.69752 21.6 12 21.6C17.3025 21.6 21.6 17.3025 21.6 12C21.6 6.69749 17.3025 2.39999 12 2.39999ZM17.3325 9.32999L10.9275 15.735C10.7775 15.885 10.59 15.9525 10.395 15.9525C10.2 15.9525 10.0125 15.8775 9.86252 15.735L6.66752 12.54C6.37502 12.2475 6.37502 11.775 6.66752 11.4825C6.81752 11.3325 7.00502 11.265 7.20002 11.265C7.39502 11.265 7.58252 11.34 7.73252 11.4825L10.4025 14.1525L16.275 8.27999C16.425 8.12999 16.6125 8.06249 16.8075 8.06249C17.0025 8.06249 17.19 8.13749 17.34 8.27999C17.6325 8.57249 17.6325 9.04499 17.34 9.33749L17.3325 9.32999Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div
+							class="items-center gap-6 justify-between rounded-lg p-6 shadow-item border border-divider-stroke hidden md:flex"
+						>
+							<div class="text-primary-dark text-base [&>div]:font-semibold">
+								<div>Title text</div>
+								<div class="mb-2">(max 2 lines only)</div>
+								<p>
+									Sub-description - Sed ut perspiciatis unde omnis iste natus
+									error sit voluptatem accusantium doloremque laudantium, totam
+									rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+									quasi
+								</p>
+							</div>
+							<div class="flex items-center mr-0 md:-mr-9">
+								<div class="text-primary-dark text-lg font-semibold text-right">
+									<span>$0.00</span>
+									<div class="font-normal">Sub-description if any here</div>
+								</div>
+								<button type="button" class="pl-5 hidden md:block">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12 2.39999C6.69752 2.39999 2.40002 6.69749 2.40002 12C2.40002 17.3025 6.69752 21.6 12 21.6C17.3025 21.6 21.6 17.3025 21.6 12C21.6 6.69749 17.3025 2.39999 12 2.39999ZM17.3325 9.32999L10.9275 15.735C10.7775 15.885 10.59 15.9525 10.395 15.9525C10.2 15.9525 10.0125 15.8775 9.86252 15.735L6.66752 12.54C6.37502 12.2475 6.37502 11.775 6.66752 11.4825C6.81752 11.3325 7.00502 11.265 7.20002 11.265C7.39502 11.265 7.58252 11.34 7.73252 11.4825L10.4025 14.1525L16.275 8.27999C16.425 8.12999 16.6125 8.06249 16.8075 8.06249C17.0025 8.06249 17.19 8.13749 17.34 8.27999C17.6325 8.57249 17.6325 9.04499 17.34 9.33749L17.3325 9.32999Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div
+							class="flex gap-6 justify-between rounded-lg p-6 shadow-item border border-divider-stroke"
+						>
+							<div class="flex gap-6">
+								<div class="placeholder-img"></div>
+								<div class="text-primary-dark text-base [&>div]:font-semibold">
+									<div class="mb-2">
+										Title text (max2 lines only) - w/o description)
+									</div>
+								</div>
+							</div>
+							<div class="flex mr-0 md:-mr-9">
+								<div class="text-primary-dark text-lg font-semibold text-right">
+									<span>$0.00</span>
+								</div>
+								<button type="button" class="pl-5 hidden md:block">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12 2.39999C6.69752 2.39999 2.40002 6.69749 2.40002 12C2.40002 17.3025 6.69752 21.6 12 21.6C17.3025 21.6 21.6 17.3025 21.6 12C21.6 6.69749 17.3025 2.39999 12 2.39999ZM17.3325 9.32999L10.9275 15.735C10.7775 15.885 10.59 15.9525 10.395 15.9525C10.2 15.9525 10.0125 15.8775 9.86252 15.735L6.66752 12.54C6.37502 12.2475 6.37502 11.775 6.66752 11.4825C6.81752 11.3325 7.00502 11.265 7.20002 11.265C7.39502 11.265 7.58252 11.34 7.73252 11.4825L10.4025 14.1525L16.275 8.27999C16.425 8.12999 16.6125 8.06249 16.8075 8.06249C17.0025 8.06249 17.19 8.13749 17.34 8.27999C17.6325 8.57249 17.6325 9.04499 17.34 9.33749L17.3325 9.32999Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div
+							class="flex gap-6 items-center justify-between rounded-lg p-6 shadow-item border border-divider-stroke"
+						>
+							<div class="flex gap-6">
+								<div class="placeholder-img"></div>
+								<div class="text-primary-dark text-base [&>div]:font-semibold">
+									<div class="mb-2">
+										Title text (max2 lines only) - w/o description)
+									</div>
+								</div>
+							</div>
+							<div class="flex mr-0 md:-mr-9">
+								<div class="text-primary-dark text-lg font-semibold text-right">
+									<span>$0.00</span>
+									<div class="font-normal">Sub-description if any here</div>
+								</div>
+								<button type="button" class="pl-5 hidden md:block">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12 2.39999C6.69752 2.39999 2.40002 6.69749 2.40002 12C2.40002 17.3025 6.69752 21.6 12 21.6C17.3025 21.6 21.6 17.3025 21.6 12C21.6 6.69749 17.3025 2.39999 12 2.39999ZM17.3325 9.32999L10.9275 15.735C10.7775 15.885 10.59 15.9525 10.395 15.9525C10.2 15.9525 10.0125 15.8775 9.86252 15.735L6.66752 12.54C6.37502 12.2475 6.37502 11.775 6.66752 11.4825C6.81752 11.3325 7.00502 11.265 7.20002 11.265C7.39502 11.265 7.58252 11.34 7.73252 11.4825L10.4025 14.1525L16.275 8.27999C16.425 8.12999 16.6125 8.06249 16.8075 8.06249C17.0025 8.06249 17.19 8.13749 17.34 8.27999C17.6325 8.57249 17.6325 9.04499 17.34 9.33749L17.3325 9.32999Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div
+							class="flex gap-6 justify-between rounded-lg p-6 shadow-item border border-divider-stroke"
+						>
+							<div class="flex gap-6">
+								<div class="placeholder-img"></div>
+								<div class="text-primary-dark text-base [&>div]:font-semibold">
+									<div class="mb-2">
+										Title text (max2 lines only) - w/o description)
+									</div>
+									<p>
+										Sub-description - Sed ut perspiciatis unde omnis iste natus
+										error sit voluptatem accusantium doloremque laudantium,
+										totam rem aperiam, eaque ipsa quae ab illo inventore
+										veritatis et quasi
+									</p>
+								</div>
+							</div>
+							<div class="flex mr-0 md:-mr-9">
+								<div class="text-primary-dark text-lg font-semibold text-right">
+									<span>$0.00</span>
+									<div class="font-normal">Sub-description if any here</div>
+								</div>
+								<button type="button" class="pl-5 hidden md:block">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12 2.39999C6.69752 2.39999 2.40002 6.69749 2.40002 12C2.40002 17.3025 6.69752 21.6 12 21.6C17.3025 21.6 21.6 17.3025 21.6 12C21.6 6.69749 17.3025 2.39999 12 2.39999ZM17.3325 9.32999L10.9275 15.735C10.7775 15.885 10.59 15.9525 10.395 15.9525C10.2 15.9525 10.0125 15.8775 9.86252 15.735L6.66752 12.54C6.37502 12.2475 6.37502 11.775 6.66752 11.4825C6.81752 11.3325 7.00502 11.265 7.20002 11.265C7.39502 11.265 7.58252 11.34 7.73252 11.4825L10.4025 14.1525L16.275 8.27999C16.425 8.12999 16.6125 8.06249 16.8075 8.06249C17.0025 8.06249 17.19 8.13749 17.34 8.27999C17.6325 8.57249 17.6325 9.04499 17.34 9.33749L17.3325 9.32999Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div
+							class="flex items-center gap-6 justify-between rounded-lg p-6 shadow-item border border-divider-stroke"
+						>
+							<div class="text-primary-dark text-base font-semibold">
+								<div>Title text</div>
+							</div>
+							<div class="flex items-center mr-0 md:-mr-9">
+								<div class="text-primary-dark text-lg font-semibold">$0.00</div>
+								<button type="button" class="pl-5 hidden md:block">
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M12 2.39999C6.69752 2.39999 2.40002 6.69749 2.40002 12C2.40002 17.3025 6.69752 21.6 12 21.6C17.3025 21.6 21.6 17.3025 21.6 12C21.6 6.69749 17.3025 2.39999 12 2.39999ZM17.3325 9.32999L10.9275 15.735C10.7775 15.885 10.59 15.9525 10.395 15.9525C10.2 15.9525 10.0125 15.8775 9.86252 15.735L6.66752 12.54C6.37502 12.2475 6.37502 11.775 6.66752 11.4825C6.81752 11.3325 7.00502 11.265 7.20002 11.265C7.39502 11.265 7.58252 11.34 7.73252 11.4825L10.4025 14.1525L16.275 8.27999C16.425 8.12999 16.6125 8.06249 16.8075 8.06249C17.0025 8.06249 17.19 8.13749 17.34 8.27999C17.6325 8.57249 17.6325 9.04499 17.34 9.33749L17.3325 9.32999Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="flex justify-end">
+							<div class="flex items-center gap-6">
+								<button
+									type="button"
+									disabled
+									class="bg-secondary rounded-full flex items-center w-10 h-10 flex-col justify-center"
+								>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M19.5751 12.75H4.42505C4.01255 12.75 3.67505 12.4125 3.67505 12C3.67505 11.5875 4.01255 11.25 4.42505 11.25H19.5751C19.9876 11.25 20.3251 11.5875 20.3251 12C20.3251 12.4125 19.9876 12.75 19.5751 12.75Z"
+											fill="#C0C0C4"
+										/>
+									</svg>
+								</button>
+								<input type="number" value="1" class="outline-none w-2" />
+								<button
+									type="button"
+									class="bg-secondary rounded-full flex items-center w-10 h-10 flex-col justify-center"
+								>
+									<svg
+										width="24"
+										height="24"
+										viewBox="0 0 24 24"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M19.5751 11.25H12.75V4.42505C12.75 4.01255 12.4125 3.67505 12 3.67505C11.5875 3.67505 11.25 4.01255 11.25 4.42505V11.25H4.42505C4.01255 11.25 3.67505 11.5875 3.67505 12C3.67505 12.4125 4.01255 12.75 4.42505 12.75H11.25V19.5751C11.25 19.9876 11.5875 20.3251 12 20.3251C12.4125 20.3251 12.75 19.9876 12.75 19.5751V12.75H19.5751C19.9876 12.75 20.3251 12.4125 20.3251 12C20.3251 11.5875 19.9876 11.25 19.5751 11.25Z"
+											fill="#636369"
+										/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="space-y-2 p-6 rounded-lg bg-greyscale-slate-300">
+							<div
+								class="flex items-center justify-between text-primary-dark text-lg font-semibold"
+							>
+								<div>Total to pay</div>
+								<div class="text-right">$0.00</div>
+							</div>
+							<div class="flex items-center justify-between text-primary-dark">
+								<div>Title</div>
+								<div class="text-right">$0.00</div>
+							</div>
+							<div class="flex items-center justify-between text-primary-dark">
+								<div>Title</div>
+								<div class="text-right">$0.00</div>
+							</div>
+							<div class="flex items-center justify-between text-primary-dark">
+								<div>Title</div>
+								<div class="text-right">$0.00</div>
+							</div>
+							<div class="flex justify-end">
+								<button
+									class="uppercase w-full md:w-auto mt-4 font-semibold px-10 py-4 text-white rounded-lg bg-greyscale-slate-800"
+								>
+									Checkout
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="space-y-2 block md:hidden px-4 py-10 bg-white">
+			<div
+				class="flex items-center justify-between text-primary-dark text-lg font-semibold"
+			>
+				Title
+			</div>
+			<div class="flex items-center justify-between text-primary-dark">
+				<div>Text</div>
+				<div class="text-right">Text</div>
+			</div>
+			<div class="flex items-center justify-between text-primary-dark">
+				<div>Text</div>
+				<div class="text-right">Text</div>
+			</div>
+			<div class="flex items-center justify-between text-primary-dark">
+				<div>Text</div>
+				<div class="text-right">Text</div>
+			</div>
+		</div>
+	</body>
+</html>
